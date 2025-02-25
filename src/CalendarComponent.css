@@ -1,0 +1,115 @@
+/* Set a calendar-themed background image for the page */
+body {
+    background-color: rgba(198, 275, 235, 0.9);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  /* Style the calendar container */
+  .calendar-container {
+    position: relative;
+    width: 650px; /* Reduced width */
+    height: auto; /* Allow dynamic height */
+    margin: auto;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 15px; /* More pronounced rounding */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Calendar toggle button without blue color */
+  .calendar-toggle {
+    cursor: pointer;
+    padding: 10px; /* Adjusted padding */
+    background-color: #355; /* Neutral color for toggle button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Calendar dropdown */
+  .calendar-dropdown {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  /* Event details styling */
+  .date-details {
+    text-align: center;
+    font-size: 12px; /* Adjusted font size for better fit */
+    padding: 8px; /* Reduced padding for a more compact look */
+    border: 10px solid #ddd;
+    border-radius: 10px; /* Reduced curvature */
+    background-color: #f6f4f4;
+    margin-top: 8px; /* Reduced margin to decrease space */
+    width: 80%; /* Slightly adjusted width */
+    margin: 10px auto; /* Center the details with adjusted margin */
+  }
+  
+  /* Add space between events */
+  .date-details + .date-details {
+    margin-top: 5px; /* Space between event boxes */
+  }
+  
+  /* Styles for specific dates */
+  .holiday {
+    color: black;
+    font-weight: bold;
+   
+  }
+  
+  .mid-date {
+    color: blue;
+  }
+  
+  /* Highlighted dates */
+  .highlight {
+    border-radius: 5%; /* More rounded */
+    color: black !important;
+  }
+  
+  /* Adjust size of calendar and keep it responsive */
+  .react-calendar {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1px; /* Reduced padding */
+  }
+  
+  /* Reduce the size of event text inside calendar tiles */
+  .react-calendar__tile p {
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Reduce tile size and add space between them */
+  .react-calendar__tile {
+    padding: 15px; /* Reduced padding for a smaller tile */
+    border-radius: 20px; /* Curved box shape */
+    margin: 5px; /* Slightly reduced margin */
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  
+  /* Styling for active (selected) tile */
+  .react-calendar__tile--active {
+    background-color: #ff7f50 !important;
+    color: white !important;
+    border-radius: 15px; /* Consistent curvature */
+  }
+  
+  
+  
+  
+  

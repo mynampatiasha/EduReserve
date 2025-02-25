@@ -1,0 +1,201 @@
+/* .booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.booking-image {
+  flex: 1;
+  text-align: center;
+  margin: 20px;
+}
+
+.booking-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 8em;
+  
+}
+
+.booking-form-container .btn {
+  margin: 5px;
+  width:130px;
+  align-content: center;
+}
+
+.booking-form-container .btn-danger {
+  margin-left: 10px;
+}
+
+.row .justify-content-center {
+  justify-content: space-evenly !important;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+label {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  font-family: 'Verdana', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.text-muted {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: #999;
+} */
+
+
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.booking-image {
+  flex: 1;
+  text-align: center;
+  margin: 20px;
+}
+
+.booking-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 8em;
+  
+}
+
+.booking-form-container .btn {
+  margin: 5px;
+  width:130px;
+  align-content: center;
+}
+
+.booking-form-container .btn-danger {
+  margin-left: 10px;
+}
+
+.row .justify-content-center {
+  justify-content: space-evenly !important;
+}
+
+h2 {
+  margin-bottom: 5px;
+  top: 70px; /* Just below the navbar */
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+label {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  font-family: 'Verdana', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.text-muted {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: #999;
+}
+.calendar-container {
+  position: absolute;
+  z-index: 1000; /* Ensure it appears above other elements */
+  background: white; /* Make sure it has a background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+  margin-top: 5px; /* Space between the input and calendar */
+}
+/* Notification-style alert */
+.alert-notification {
+  position: fixed;
+  top: 70px; /* Just below the navbar */
+  right: 120px; /* Positioned on the right side */
+  z-index: 9999; /* Make sure it appears above all other elements */
+  width: auto; /* Automatically adjust width based on content */
+  max-width: 300px; /* Limit the width */
+  padding: 10px; /* Add padding for a compact look */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  background-color: #f8d7da; /* Default background color for error (Bootstrap danger) */
+  color: #721c24; /* Default text color for error (Bootstrap danger) */
+  font-size: 14px; /* Slightly smaller font size */
+  text-align: center; /* Center-align the text */
+  animation: fadeInOut 4s ease; /* Add fade-in/out effect */
+  transform: translateX(-120%); /* Center horizontally with respect to the page */
+}
+
+/* Success variant for the alert */
+.alert-notification.success {
+  background-color: #d4edda; /* Green background for success */
+  color: #155724; /* Green text for success */
+}
+
+/* Animation for smooth fade-in and fade-out */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+

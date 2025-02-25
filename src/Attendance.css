@@ -1,0 +1,118 @@
+/* Styles for Attendance Component */
+.attendance-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .attendance-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .attendance-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attendance-form h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .attendance-form .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .attendance-form button {
+    width: 130px;
+    margin: 10px 5px;
+  }
+  
+  .cancel-button {
+    margin-top: 10px;
+  }
+  
+  .filter-buttons {
+    margin: 20px 0;
+  }
+  
+  .class-percentage {
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .attendance-table-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px 0;
+  }
+  
+  .attendance-table-container h3 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    width: 130px;
+  }
+  
+  button.edit-button {
+    margin-right: 10px;
+  }
+  
+  button.delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Modify Table Actions */
+  button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
