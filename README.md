@@ -4,7 +4,7 @@ A real-time web application for booking educational resources using **React.js**
 
 ## 🔧 Tech Stack
 
-- **Frontend**: React.js, HTML5, CSS3, Responsive Design
+- **Frontend**: React.js, HTML5, CSS3, Responsive Design 
 - **Backend/Database**: Firebase Authentication, Firestore
 - **Tools**: Git, GitHub, VS Code
 
